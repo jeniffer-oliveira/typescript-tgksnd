@@ -1,9 +1,6 @@
-// Import stylesheets
-import './style.css';
-
-// Write TypeScript code!
+let title: String = "MyApp";
 const appDiv: HTMLElement = document.getElementById('app');
-appDiv.innerHTML = `<h1>TypeScript Starter</h1>`;
+appDiv.innerHTML = `<h1>${title}</h1>`
 
 console.log('Olá, mundo!');
 
