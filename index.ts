@@ -1,11 +1,13 @@
-let title: String = "MyApp";
-const appDiv: HTMLElement = document.getElementById('app');
-appDiv.innerHTML = `<h1>${title}</h1>`
+//8 ciclos com 20 seg de atividade e 10 seg de descanso
 
-console.log('Olá, mundo!');
-
-for (let i = 1; i <= 10; i++) {
-  if (i % 2 == 0) {
-    console.log(i);
-  }
+function principalCounter() {
+  let firstCounter = 0;
+  firstCounter = firstCounter + 1;
 }
+
+//let interalId = setInterval(() => [
+//counter = counter + 1
+//let counterDiv = document.getElementById['app.counter'];
+//counterDiv.innerHTML = counter.toString[];
+
+//}, 1000;)
