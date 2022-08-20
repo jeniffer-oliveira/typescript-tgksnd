@@ -10,6 +10,6 @@ let intervalId = setInterval (() => {
 })
 
 if(counter <= 20 && rest == 0){
-  document.getElementById("set").innerHTML = "Start your exercise"
+  document.getElementById("rest").innerHTML = "Start your exercise"
   
 }
